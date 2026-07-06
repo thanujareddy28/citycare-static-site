@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+body {
+  color: #222;
+  scroll-behavior: smooth;
+  background-color: #fafdfe;
+}
+
+header {
+  background: linear-gradient(90deg, #0b5f77, #12879e);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 22px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #ffe08a;
+}
+
+.hero {
+  background: linear-gradient(135deg, #12879e, #0b5f77);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 42px;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+}
+
+.hero p {
+  font-size: 19px;
+  margin-bottom: 30px;
+  opacity: 0.95;
+}
+
+.btn {
+  background-color: #ff8c42;
+  color: white;
+  padding: 14px 32px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background 0.2s, transform 0.2s;
+  display: inline-block;
+}
+
+.btn:hover {
+  background-color: #ff7324;
+  transform: translateY(-2px);
+}
+
+.section {
+  padding: 70px 40px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.section.alt {
+  background-color: #eef8fa;
+  max-width: 100%;
+}
+
+.section.alt > * {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section h2 {
+  color: #0b5f77;
+  margin-bottom: 25px;
+  font-size: 30px;
+  border-left: 5px solid #ff8c42;
+  padding-left: 15px;
+}
+
+.section > p {
+  font-size: 16px;
+  line-height: 1.7;
+  color: #444;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  margin-top: 10px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 28px;
+  flex: 1 1 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+}
+
+.card .icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.card h3 {
+  color: #0b5f77;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.5;
+}
+
+.contact-box p {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+footer {
+  background: linear-gradient(90deg, #0b5f77, #12879e);
+  color: white;
+  text-align: center;
+  padding: 25px;
+  font-size: 14px;
+}
