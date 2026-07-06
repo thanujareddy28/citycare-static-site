@@ -161,3 +161,44 @@ footer {
   padding: 25px;
   font-size: 14px;
 }
+
+.form-box {
+  max-width: 500px;
+  margin: 30px auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.form-box input,
+.form-box select,
+.form-box textarea {
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+.form-box input:focus,
+.form-box select:focus,
+.form-box textarea:focus {
+  outline: none;
+  border-color: #12879e;
+}
+
+.form-box button {
+  border: none;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.form-status {
+  font-size: 14px;
+  font-weight: 500;
+  min-height: 20px;
+}
